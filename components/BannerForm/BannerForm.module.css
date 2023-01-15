@@ -1,0 +1,49 @@
+.banner_form {
+  max-width: 20rem;
+  background-color: white;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 6rem;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  -webkit-box-shadow: 0px 0px 78px -42px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 78px -42px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 78px -42px rgba(0, 0, 0, 0.75);
+}
+
+.banner_form__title {
+  font-size: 2rem;
+}
+
+.search__form,
+.search__form fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  font-weight: bold;
+}
+
+.search__form {
+  row-gap: 1rem;
+}
+
+.search__form fieldset input,
+.search__form fieldset select {
+  padding: 0.5rem;
+  outline: none;
+  border: 0.5px solid rgb(171, 171, 171);
+}
+
+.search__form input[type="submit"] {
+  padding: 0.7rem;
+  color: white;
+  background-color: rgb(248, 49, 82);
+  border-radius: 0.3rem;
+  border: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

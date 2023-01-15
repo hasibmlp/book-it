@@ -1,0 +1,51 @@
+.table__data__row {
+  display: flex;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.table__data--row__name,
+.table__data--row__action {
+  flex: 1;
+}
+
+.table__data--row__id {
+  flex: 2;
+}
+
+.table__data--row__email {
+  flex: 1.5;
+}
+
+.table__data--row__role {
+  flex: 0.5;
+}
+
+.table__data__row > div {
+  border-right: 1px solid rgb(158, 158, 158);
+}
+
+.table__data__row > div:last-child {
+  border-right: 0;
+}
+
+.table__data--row__column {
+  padding: 0.8rem 0.5rem;
+}
+.table__data--row__action {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.table__data--row__action a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.table__data--row__action a:hover {
+  text-decoration: underline;
+}
+
+.table__data--row__action a:first-child {
+  color: rgb(15, 155, 255);
+}
+.table__data--row__action a:last-child {
+  color: rgb(230, 44, 44);
+}

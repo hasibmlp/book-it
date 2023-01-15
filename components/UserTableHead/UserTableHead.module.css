@@ -1,0 +1,36 @@
+.table__head {
+  display: flex;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.table__head p {
+  font-weight: bold;
+}
+
+.table__head--column__name,
+.table__head--column__action {
+  flex: 1;
+}
+
+.table__head--column__id {
+  flex: 2;
+}
+.table__head--column__email {
+  flex: 1.5;
+}
+
+.table__head--column__role {
+  flex: 0.5;
+}
+
+.table__head > div {
+  border-right: 1px solid rgb(158, 158, 158);
+}
+
+.table__head > div:last-child {
+  border-right: 0;
+}
+
+.table__head--column {
+  padding: 0.5rem;
+}

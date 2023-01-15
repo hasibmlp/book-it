@@ -1,0 +1,13 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.hotel_card_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.hotel_card_grid_wrapper {
+  margin-top: 4.5rem;
+}

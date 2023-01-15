@@ -1,0 +1,8 @@
+.header_button {
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  background-color: rgb(248, 49, 82);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
