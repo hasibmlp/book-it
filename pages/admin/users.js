@@ -25,6 +25,13 @@ const Users = [
     email: "Nathan@yesenia.net",
     role: "user",
   },
+  {
+    id: 4,
+    name: "Shammas",
+    username: "shamm",
+    email: "Shammas@gmail.com",
+    role: "user",
+  },
 ];
 
 function AdminUsers() {

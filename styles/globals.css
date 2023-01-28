@@ -276,30 +276,6 @@ fieldset {
   margin-top: 1rem;
 }
 
-.table {
-  display: flex;
-  flex-direction: column;
-}
-
-.table__data--border {
-  border-bottom: 1px solid rgb(158, 158, 158);
-}
-
-.table__data {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(234, 234, 234);
-}
-
-.table__data {
-  border-left: 1px solid rgb(158, 158, 158);
-  border-right: 1px solid rgb(158, 158, 158);
-}
-
-.table__data__row:last-child {
-  border-bottom: 0;
-}
-
 .users_page {
   display: flex;
   flex-direction: column;

@@ -2,13 +2,15 @@ import React from "react";
 import UserTableData from "../UserTableData";
 import UserTableHead from "../UserTableHead";
 
+import s from "./UserTable.module.css";
+
 function UserTable({ users }) {
   return (
     <div>
-      <div className="table">
+      <div className={s.table}>
         <UserTableHead />
 
-        <div className="table__data">
+        <div className={s.table__data}>
           {users.map((user) => {
             return <UserTableData user={user} />;
           })}
