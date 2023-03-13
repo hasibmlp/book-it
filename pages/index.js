@@ -32,6 +32,27 @@ const rooms = [
     para: "Luxury Room ",
     price: "$100.00",
   },
+  {
+    id: "004",
+    title: "Room 4",
+    imgUrl: "img/room5.jpeg",
+    para: "Luxury Room ",
+    price: "$100.00",
+  },
+  {
+    id: "004",
+    title: "Room 4",
+    imgUrl: "img/room5.jpeg",
+    para: "Luxury Room ",
+    price: "$100.00",
+  },
+  {
+    id: "004",
+    title: "Room 4",
+    imgUrl: "img/room5.jpeg",
+    para: "Luxury Room ",
+    price: "$100.00",
+  },
 ];
 
 function Home() {
