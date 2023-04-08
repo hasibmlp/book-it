@@ -9,12 +9,12 @@ function BannerForm({ title, para }) {
 
       <form className={s.search__form}>
         <fieldset>
-          <label for="loc">Location</label>
+          <label htmlFor="loc">Location</label>
           <input type="text" id="loc" placeholder="Newyork" />
         </fieldset>
 
         <fieldset>
-          <label for="guests">No. of Guests</label>
+          <label htmlFor="guests">No. of Guests</label>
           <select>
             <option>1</option>
             <option>2</option>
@@ -23,7 +23,7 @@ function BannerForm({ title, para }) {
         </fieldset>
 
         <fieldset>
-          <label for="type">Room Type</label>
+          <label htmlFor="type">Room Type</label>
           <select>
             <option>King</option>
             <option>Queen</option>

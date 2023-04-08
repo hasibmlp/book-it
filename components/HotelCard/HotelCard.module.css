@@ -36,6 +36,33 @@
   margin-top: 0.6rem;
 }
 
+.rating_outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  color: #e61e4d;
+}
+
+.rating_outer::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.rating_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.rating_inner::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #e61e4d;
+}
+
 .getRoomCart__button {
   padding: 0.7rem;
   color: white;

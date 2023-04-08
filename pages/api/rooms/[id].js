@@ -13,6 +13,6 @@ dbConnect();
 
 handler.get(getSingleRoom);
 handler.put(updateRoom);
-handler.put(deletRoom);
+handler.delete(deletRoom);
 
 export default handler;
